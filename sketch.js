@@ -76,6 +76,8 @@ function draw() {
       cts.velocityY=0;
     }
   }
-   
+   var a = createSprite(windowWidth,windowHeight,70,70);
+  a.shapeColor("black")
+  
   drawSprites();
 }
